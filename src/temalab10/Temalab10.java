@@ -1,3 +1,5 @@
+package temalab10;
+
 public class Temalab10 {
     public static void main(String[] args) {
         System.out.println("Media este: " + media(4, 5, 8));

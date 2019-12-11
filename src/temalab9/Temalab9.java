@@ -1,3 +1,5 @@
+package temalab9;
+
 public class Temalab9 {
     public static void main(String[] args) {
         exercitiu1();
