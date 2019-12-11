@@ -1,7 +1,7 @@
 public class Temalab9 {
     public static void main(String[] args) {
         exercitiu1();
-        System.out.println(exercitiu2(2, 5));
+        System.out.println("Rezultatul adunarii este: " + exercitiu2(2, 5));
         exercitiu3(10, 3);
         exercitiu4();
     }
@@ -16,7 +16,7 @@ public class Temalab9 {
     }
 
     public static void exercitiu3(float x, float y) {
-        System.out.println(x / y);
+        System.out.println("Rezultatul impartirii este: " + x / y);
     }
 
     public static void exercitiu4() {
