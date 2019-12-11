@@ -1,4 +1,4 @@
-package AnimalRescue;
+package temalab10.AnimalRescue;
 
 public class Doctor {
     String doctorName;
