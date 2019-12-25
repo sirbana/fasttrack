@@ -1,4 +1,4 @@
-package temalab10aplicatie.AnimalRescue;
+package temalab11encapsulare;
 
 public class Doctor {
     String doctorName;
