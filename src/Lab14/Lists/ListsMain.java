@@ -87,4 +87,7 @@ public class ListsMain {
         System.out.println(max);
     }
 
+    public static void maxColectii(List<Integer> l) {
+        System.out.println(Collections.max(l));
+    }
 }
