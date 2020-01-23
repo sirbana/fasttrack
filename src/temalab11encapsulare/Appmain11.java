@@ -21,18 +21,18 @@ public class Appmain11 {
         System.out.println(caine.getName() + " is that much hungry: " + hunger.getHunger());
 
         Food protein = new Food();
-        protein.foodName = "bone";
-        protein.avaible = true;
-        protein.price = 2.3f;
-        System.out.println(caine.getName() + "`s" + " favourite food is " + protein.foodName);
+        protein.setFoodName("bone");
+        protein.setAvaible(true);
+        protein.setPrice(2.4f);
+        System.out.println(caine.getName() + "`s" + " favourite food is " + protein.getFoodName());
 
         Activity night = new Activity();
-        night.activityName = "sleep";
-        System.out.println("After ten o`clock " + caine.getName() + " favourite activity is to " + night.activityName);
+        night.setActivityName("sleep");
+        System.out.println("After ten o`clock " + caine.getName() + " favourite activity is to " + night.getActivityName());
 
         Doctor x = new Doctor();
-        x.doctorName = "Radu";
-        System.out.println("He loves his doctor" + x.doctorName);
+        x.setDoctorName("Radu");
+        System.out.println("He loves his doctor " + x.getDoctorName());
 
 
     }
