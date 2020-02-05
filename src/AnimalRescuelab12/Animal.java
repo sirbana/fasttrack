@@ -68,4 +68,9 @@ public class Animal {
     public void talk() {
         System.out.println("Animal talks!");
     }
+
+    public void eat() {
+        System.out.println("Animal is not making sounds while eating!");
+    }
+
 }

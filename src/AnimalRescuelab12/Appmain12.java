@@ -11,8 +11,17 @@ public class Appmain12 {
         Duck ducky = new Duck();
         ducky.talk();
 
-        Cat Paty = new Cat();
+        Cat Paty = new Persian();
         Paty.talk();
+        Paty.eat();
+
+        Cat Mog = new Shorthair();
+        Mog.sleep();
+
+        Duck ducklings = new Ducklings();
+        ducklings.talk();
+        Owner kiddo = new OwnerKid();
+        kiddo.job();
 
         Owner O = new Owner();
         O.setName("Ana");
@@ -28,14 +37,14 @@ public class Appmain12 {
         System.out.println(caine.getName() + " is that much hungry: " + hunger.getHunger());
 
         Food protein = new Food();
-        protein.foodName = "bone";
-        protein.avaible = true;
-        protein.price = 2.3f;
-        System.out.println(caine.getName() + "`s" + " favourite food is " + protein.foodName);
+        protein.setFoodName("bone");
+        protein.setAvailable(true);
+        protein.setPrice(2.3f);
+        System.out.println(caine.getName() + "`s" + " favourite food is " + protein.getFoodName());
 
         Activity night = new Activity();
-        night.activityName = "sleep";
-        System.out.println("After ten o`clock " + caine.getName() + " favourite activity is to " + night.activityName);
+        night.setActivityName("sleep");
+        System.out.println("After ten o`clock " + caine.getName() + " favourite activity is to " + night.getActivityName());
 
         Doctor x = new Doctor();
         x.setName("Radu");
@@ -43,5 +52,8 @@ public class Appmain12 {
 
         x.setSpecialist("intern");
         System.out.println(x.getName() + " is an " + x.getSpecialist() + ".");
+
+        Cat y = new Cat();
+        y.talk();
     }
 }

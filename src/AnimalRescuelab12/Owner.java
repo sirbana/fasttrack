@@ -2,6 +2,9 @@ package AnimalRescuelab12;
 
 public class Owner extends Person {
 
+    public void job() {
+        System.out.println("many duties!");
+    }
 
     private Float money;
 

@@ -71,19 +71,11 @@ public class LogicalOplab12 {
     }
 
     public boolean isNumberEven(int z) {
-        if (z % 2 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return z % 2 == 0;
     }
 
     public boolean isEligibleToVote(int x) {
-        if (x > 18) {
-            return true;
-        } else {
-            return false;
-        }
+        return x > 18;
     }
 
     public int greatestNumber(int x, int y, int z) {
@@ -288,4 +280,17 @@ public class LogicalOplab12 {
 
         }
     }
+
+    public void sumAndAverage() {
+        int sum = 0;
+        int counter = 0;
+        for (int i = 1; i <= 100; i++) {
+            sum += i;
+            counter++;
+        }
+        System.out.println(sum / counter);
+
+
+    }
 }
+

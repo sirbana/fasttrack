@@ -31,17 +31,17 @@ public class LogicalOp13 {
 
     public void average() {
         int[] f = {7, 34, 6, 8};
-        int total = 0;
+        int sum = 0;
         for (int i = 0; i < f.length; i++) {
-            total = total + f[i];
+            sum = sum + f[i];
         }
-        int average = total / f.length;
+        int average = sum / f.length;
         System.out.println(average);
     }
 
-    public boolean check(String para, String[] s) {
+    public boolean check(String even, String[] s) {
         for (int i = 0; i < s.length; i++) {
-            if (s[i] == para) {
+            if (s[i] == even) {
                 return true;
             }
         }
